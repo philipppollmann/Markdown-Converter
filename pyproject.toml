@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "markdown-converter"
+version = "0.1.0"
+description = "A CLI to convert files into markdown"
+authors = ["Your Name <you@example.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+argparse = "^1.4.0"
+markitdown = "^0.0.1a3"
+click = "^8.1.7"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
